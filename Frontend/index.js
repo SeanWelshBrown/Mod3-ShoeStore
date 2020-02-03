@@ -55,8 +55,6 @@ const postReviewToShoe = function(review) {
     },
     body: JSON.stringify(review)
   })
-  .then( response => response.json() )
-  .then( json => renderOneReview(json) )
 };
 
   /* RENDER FUNCTIONS */
